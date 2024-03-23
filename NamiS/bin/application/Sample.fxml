@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="443.0" prefWidth="684.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Label fx:id="welcome" layoutX="122.0" layoutY="69.0" prefHeight="32.0" prefWidth="402.0" style="-fx-background-color: Grey;" text="Welcome">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="59.0" />
+         </font>
+      </Label>
+      <Button fx:id="mybutton" layoutX="213.0" layoutY="208.0" mnemonicParsing="false" onAction="#Clickmybutton" prefHeight="46.0" prefWidth="227.0" text="Button" />
+   </children>
+</AnchorPane>

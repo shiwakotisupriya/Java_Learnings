@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="692.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Button fx:id="btn_one" layoutX="188.0" layoutY="301.0" mnemonicParsing="false" onAction="#Add" text="+" />
+      <Button fx:id="btn_two" layoutX="309.0" layoutY="301.0" mnemonicParsing="false" onAction="#Min" text="-" />
+      <Button fx:id="btn_three" layoutX="414.0" layoutY="301.0" mnemonicParsing="false" onAction="#Mul" text="*" />
+      <Button fx:id="btn_four" layoutX="529.0" layoutY="301.0" mnemonicParsing="false" onAction="#div" text="/" />
+      <TextArea fx:id="feild_one" layoutX="219.0" layoutY="120.0" prefHeight="39.0" prefWidth="253.0" />
+      <TextArea fx:id="feild_two" layoutX="219.0" layoutY="194.0" prefHeight="39.0" prefWidth="253.0" />
+      <TextArea fx:id="feild_three" layoutX="116.0" layoutY="373.0" prefHeight="39.0" prefWidth="499.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,8 @@
+.active {
+  text-decoration: underline 2px red;
+  text-underline-offset: 5px;
+}
+
+.active:hover {
+  text-decoration: underline 2px #8f0000;
+}
